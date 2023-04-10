@@ -1,0 +1,211 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Dimsbot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya Dimsbot, salam kenal ya! Mau tau tentang Dunia Per-filman, kan?",
+        "Helo! Ini Dimsbot. Lagi kepo tentang Dunia Per-filman ya?"
+      ]
+    },
+    {
+      "tag": "Dimsbot",
+      "patterns": [
+        "Apa itu DimsBot?",
+        "Siapa DimsBot?"
+      ],
+      "responses": [
+        "DimsBot adalah aplikasi chatbot informasi tentang Dunia Per-filman!",
+        "DimsBot itu adalah teman informasi kamu tentang Dunia Per-filman!"
+      ]
+    },
+    {
+      "tag": "pencipta_Dimsbot",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Dims, yang buat kamu siapa sih?",
+        "Siapa penciptamu, Dims?"
+      ],
+      "responses": [
+        "DimsBot diciptakan oleh Dimas Fauzan Nurhidayat dari kelas SWIFT, mahasiswa MSIB Orbit Batch 4",
+        "Pembuat DimsBot dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "penjelasan_film",
+      "patterns": [
+        "Apa itu film?"
+      ],
+      "responses": [
+        "Film merupakan serangkaian gambar diam, yang ketika ditampilkan pada layar akan menciptakan ilusi gambar bergerak yang dikarenakan efek fenomena phi. Ilusi optik ini memaksa penonton untuk melihat gerakan berkelanjutan antar objek yang berbeda secara cepat dan berturut-turut."
+      ]
+    },
+    {
+      "tag": "manfaat_menonton_film",
+      "patterns": [
+        "Apa manfaat menonton film?"
+      ],
+      "responses": [
+        "Berdasarkan penelitian, menonton film dapat meredakan stres karena saat menonton otak kita akan melepaskan hormon stres dan menggantinya dengan hormon endorphin. Hormon ini memiliki fungsi untuk membuat keadaan emosi kita menjadi lebih stabil dan bahagia."
+      ]
+    },
+    {
+      "tag": "persyaratan_menonton_film",
+      "patterns": [
+        "Apa persyaratan mengikuti menonton film?"
+      ],
+      "responses": [
+        "Persyaratan film hanya cukup membayar di bioskop dan menonton film sesuai dengan batasan usia yang sudah ditentukan."
+      ]
+    },
+    {
+      "tag": "genre_film",
+      "patterns": [
+        "Apa saja genre film?"
+      ],
+      "responses": [
+        "Action, Drama, Horor, Komedi, Kartun, Romance, dan yang lainnya."
+      ]
+    },
+    {
+      "tag": "film_dari_indonesia",
+      "patterns": [
+        "Dua Garis Biru",
+        "Cinta Shubuh",
+        "Cek Toko Sebelah"
+      ],
+      "responses": [
+        "Yuk, pilih film di bawah ini:"
+      ]
+    },
+    {
+      "tag": "film_dari_luar",
+      "patterns": [
+        "Avatar",
+        "Fast and Furious",
+        "Avengers",
+        "Spiderman",
+        "Maze Runner",
+        "King Arthur",
+        "Battleship"
+      ],
+      "responses": [
+        "Mau nonton film luar, ini nih ada beberapa rekomendasi?"
+      ]
+    },
+    {
+      "tag": "film_dari_luar_anime",
+      "patterns": [
+        "Naruto",
+        "One Piece",
+        "Sword Art Online",
+        "Rezero",
+        "Tensei Sitara Data Ken",
+        "Boruto",
+        "Attack on Titan"
+      ],
+      "responses": [
+        "Mau nonton anime, ini nih ada beberapa rekomendasi?"
+      ]
+    },
+    {
+      "tag": "sejarah_film",
+      "patterns": [
+        "Apa Kamu Tahu Sejarah Film?"
+      ],
+      "responses": [
+        "Perkembangan film memiliki perjalanan cukup panjang hingga pada akhirnya menjadi seperti film di masa kini yang kaya dengan efek, dan sangat mudah didapatkan sebagai media hiburan. Perkembangan film dimulai ketika digunakannya alat kinetoskop temuan Thomas Alfa Edison yang pada masa itu digunakan oleh penonton individual. Film awal masih bisu dan tidak berwarna. Pemutaran film di bioskop untuk pertama kalinya dilakukan pada awal abad 20, hingga industri film Hollywood yang pertama kali, bahkan hingga saat ini merajai industri perfilman populer secara global."
+      ]
+    },
+    {
+      "tag": "pendapat_film_indonesia",
+      "patterns": [
+        "Bagaimana pendapatmu mengenai film Indonesia?"
+      ],
+      "responses": [
+        "Film nya menarik dan asik, namun dalam hal grafik, mungkin masih bagus film luar yah :D"
+      ]
+    },
+    {
+      "tag": "pendapat_film_luar",
+      "patterns": [
+        "Bagaimana pendapatmu mengenai film Luar?"
+      ],
+      "responses": [
+        "Grafik nya biasanya sangat memukai, hanya saja, terkadang film luar terikat dengan kemonotonan, sehingga terkadang penonton sudah dapat menebak alur ceritanya :D"
+      ]
+    },
+    {
+      "tag": "pendapat_film_anime",
+      "patterns": [
+        "Bagaimana pendapatmu mengenai film Anime?"
+      ],
+      "responses": [
+        "Film anime cukup menarik di kalangan para remaja, mereka cukup terinspirasi dengan makna-makna tersirat di film anime, hanya saja, terkadang film ini juga bersifat monoton dan alurnya mudah ditebak."
+      ]
+    },
+    {
+      "tag": "penonton_anime",
+      "patterns": [
+        "Apa Sebutan Penyuka Anime?"
+      ],
+      "responses": [
+        "Orang-orang biasa menyebutnya Wibu."
+      ]
+    }
+  ]
+}
